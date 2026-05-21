@@ -702,6 +702,30 @@ const VideoModal = (() => {
             showControls();
         });
 
+        // ===== 视频加载错误处理 =====
+        DOM.modalVideo.addEventListener('error', () => {
+            DOM.videoLoading.classList.remove('active');
+            DOM.modalVideo.style.display = 'none';
+            DOM.videoPlaceholder.style.display = 'flex';
+            DOM.videoPlaceholder.querySelector('.placeholder-play-btn').innerHTML = '<i class="fas fa-exclamation-triangle"></i>';
+            DOM.videoPlaceholder.querySelector('.placeholder-play-btn').style.background = 'linear-gradient(135deg, #ff6b6b, #ee5a24)';
+            DOM.videoPlaceholder.querySelector('p').textContent = '视频加载失败，请检查网络后重试';
+            isPlaying = false;
+        });
+
+        // 点击错误状态时重试
+        DOM.videoPlaceholder.addEventListener('click', function retryHandler() {
+            const msg = DOM.videoPlaceholder.querySelector('p');
+            if (msg.textContent.includes('加载失败')) {
+                // 恢复初始状态
+                DOM.videoPlaceholder.querySelector('.placeholder-play-btn').innerHTML = '<i class="fas fa-play"></i>';
+                DOM.videoPlaceholder.querySelector('.placeholder-play-btn').style.background = '';
+                DOM.videoPlaceholder.querySelector('p').textContent = '点击播放视频';
+                // 重新尝试加载
+                DOM.modalVideo.load();
+            }
+        });
+
         // ===== 播放/暂停 =====
         DOM.playPauseBtn.addEventListener('click', (e) => {
             e.stopPropagation();
