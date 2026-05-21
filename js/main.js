@@ -14,14 +14,14 @@ const slideData = [
         title: 'Qeelin · 戒指',
         subtitle: '珠宝品牌 · 璀璨工艺之美',
         badge: '品牌项目',
-        image: 'assets/images/Qeelin_戒指.png',
+        image: 'assets/images/Qeelin_戒指.jpg',
         video: 'https://cdn.jsdelivr.net/gh/wei01-star/my-portfolio@main/assets/videos/Qeelin_戒指.mp4'
     },
     {
         title: '光影节 · MAC口红',
         subtitle: '彩妆与光影 · 品牌视觉新表达',
         badge: '商业项目',
-        image: 'assets/images/光影节_MAC口红.png',
+        image: 'assets/images/光影节_MAC口红.jpg',
         video: 'https://cdn.jsdelivr.net/gh/wei01-star/my-portfolio@main/assets/videos/光影节_MAC口红.mp4'
     },
     {
@@ -35,14 +35,14 @@ const slideData = [
         title: '比斯特 · 苏州开业',
         subtitle: '品牌活动 · 开业盛典',
         badge: '商业项目',
-        image: 'assets/images/比斯特_苏州开业.png',
+        image: 'assets/images/比斯特_苏州开业.jpg',
         video: 'https://cdn.jsdelivr.net/gh/wei01-star/my-portfolio@main/assets/videos/比斯特_苏州开业.mp4'
     },
     {
         title: '时间的两个名字',
         subtitle: 'MR混合现实体验 · 探索时间的多维意义',
         badge: '自主项目',
-        image: 'assets/images/时间的两个名字.png',
+        image: 'assets/images/时间的两个名字.jpg',
         video: 'https://cdn.jsdelivr.net/gh/wei01-star/my-portfolio@main/assets/videos/时间的两个名字.mp4'
     }
 ];
@@ -54,7 +54,7 @@ const portfolioData = [
         category: 'self',
         categoryLabel: '自主项目',
         description: '自主打造的抖音平台宣传视频，以沉浸式视觉体验呈现ArtDeco的独特魅力，契合特效制作「让画面活起来」的核心价值。',
-        image: 'assets/images/ArtDeco_抖音.png',
+        image: 'assets/images/ArtDeco_抖音.jpg',
         videoUrl: 'https://cdn.jsdelivr.net/gh/wei01-star/my-portfolio@main/assets/videos/ArtDeco_抖音.mp4',
         duration: '00:30',
         date: '2026'
@@ -65,7 +65,7 @@ const portfolioData = [
         category: 'self',
         categoryLabel: '自主项目',
         description: 'Coach品牌裸眼3D创意短片，通过立体视觉技术为传统品牌展示注入全新活力，带来震撼的视觉冲击。',
-        image: 'assets/images/Coach_裸眼3D.png',
+        image: 'assets/images/Coach_裸眼3D.jpg',
         videoUrl: 'https://cdn.jsdelivr.net/gh/wei01-star/my-portfolio@main/assets/videos/Coach_裸眼3D.mp4',
         duration: '00:30',
         date: '2026'
@@ -76,7 +76,7 @@ const portfolioData = [
         category: 'commercial',
         categoryLabel: '商业项目',
         description: 'Debeers品牌晚宴活动投影宣传视频，记录奢华之夜的精彩瞬间，展现钻石品牌的永恒魅力。',
-        image: 'assets/images/Debeers_晚宴.png',
+        image: 'assets/images/Debeers_晚宴.jpg',
         videoUrl: 'https://cdn.jsdelivr.net/gh/wei01-star/my-portfolio@main/assets/videos/Debeers_晚宴.mp4',
         duration: '01:00',
         date: '2026'
@@ -87,7 +87,7 @@ const portfolioData = [
         category: 'commercial',
         categoryLabel: '商业项目',
         description: 'Qeelin珠宝品牌戒指产品展示，精细化的材质雕琢与光影呈现，展现珠宝的璀璨工艺之美。',
-        image: 'assets/images/Qeelin_戒指.png',
+        image: 'assets/images/Qeelin_戒指.jpg',
         videoUrl: 'https://cdn.jsdelivr.net/gh/wei01-star/my-portfolio@main/assets/videos/Qeelin_戒指.mp4',
         duration: '00:30',
         date: '2026'
@@ -98,7 +98,7 @@ const portfolioData = [
         category: 'commercial',
         categoryLabel: '商业项目',
         description: '三星品牌投影产品宣传片，以技术赋能视觉，展现科技与艺术的完美融合。',
-        image: 'assets/images/三星_投影.png',
+        image: 'assets/images/三星_投影.jpg',
         videoUrl: 'https://cdn.jsdelivr.net/gh/wei01-star/my-portfolio@main/assets/videos/三星_投影.mp4',
         duration: '00:45',
         date: '2025'
@@ -109,7 +109,7 @@ const portfolioData = [
         category: 'commercial',
         categoryLabel: '商业项目',
         description: '为交通大学打造的裸眼3D展示项目，将前沿视觉技术应用于教育领域，呈现科技与学术的创新融合。',
-        image: 'assets/images/交通大学_裸眼3D.png',
+        image: 'assets/images/交通大学_裸眼3D.jpg',
         videoUrl: 'https://cdn.jsdelivr.net/gh/wei01-star/my-portfolio@main/assets/videos/交通大学_裸眼3D.mp4',
         duration: '00:30',
         date: '2025'
@@ -120,7 +120,7 @@ const portfolioData = [
         category: 'commercial',
         categoryLabel: '商业项目',
         description: '大型光影节活动宣传项目，融合创意灯光与视觉特效，打造沉浸式的光影艺术盛宴。',
-        image: 'assets/images/光影节.png',
+        image: 'assets/images/光影节.jpg',
         videoUrl: 'https://cdn.jsdelivr.net/gh/wei01-star/my-portfolio@main/assets/videos/光影节.mp4',
         duration: '02:00',
         date: '2025'
@@ -131,7 +131,7 @@ const portfolioData = [
         category: 'commercial',
         categoryLabel: '商业项目',
         description: 'MAC口红品牌光影节特别企划，将彩妆与光影艺术结合，呈现独特的品牌视觉语言。',
-        image: 'assets/images/光影节_MAC口红.png',
+        image: 'assets/images/光影节_MAC口红.jpg',
         videoUrl: 'https://cdn.jsdelivr.net/gh/wei01-star/my-portfolio@main/assets/videos/光影节_MAC口红.mp4',
         duration: '00:30',
         date: '2025'
@@ -153,7 +153,7 @@ const portfolioData = [
         category: 'commercial',
         categoryLabel: '商业项目',
         description: '宝诗龙(Boucheron)品牌新店开业活动视频，记录珠宝品牌的璀璨时刻。',
-        image: 'assets/images/宝诗龙_开店视频.png',
+        image: 'assets/images/宝诗龙_开店视频.jpg',
         videoUrl: 'https://cdn.jsdelivr.net/gh/wei01-star/my-portfolio@main/assets/videos/宝诗龙_开店视频.mp4',
         duration: '00:30',
         date: '2025'
@@ -164,7 +164,7 @@ const portfolioData = [
         category: 'commercial',
         categoryLabel: '商业项目',
         description: '宝诗龙品牌珠宝首饰产品宣传，精细化的材质渲染与光影雕琢，诠释高级珠宝的工艺美学。',
-        image: 'assets/images/宝诗龙_首饰.png',
+        image: 'assets/images/宝诗龙_首饰.jpg',
         videoUrl: 'https://cdn.jsdelivr.net/gh/wei01-star/my-portfolio@main/assets/videos/宝诗龙_首饰.mp4',
         duration: '01:00',
         date: '2025'
@@ -175,7 +175,7 @@ const portfolioData = [
         category: 'self',
         categoryLabel: '自主项目',
         description: '创意实验短片「时间的两个名字」，用非线性叙事和视觉隐喻探索时间的多维意义。',
-        image: 'assets/images/时间的两个名字.png',
+        image: 'assets/images/时间的两个名字.jpg',
         videoUrl: 'https://cdn.jsdelivr.net/gh/wei01-star/my-portfolio@main/assets/videos/时间的两个名字.mp4',
         duration: '02:30',
         date: '2024'
@@ -186,7 +186,7 @@ const portfolioData = [
         category: 'commercial',
         categoryLabel: '商业项目',
         description: '比斯特购物村上海开业活动宣传片，记录品牌的重要里程碑时刻。',
-        image: 'assets/images/比斯特_上海开业.png',
+        image: 'assets/images/比斯特_上海开业.jpg',
         videoUrl: 'https://cdn.jsdelivr.net/gh/wei01-star/my-portfolio@main/assets/videos/比斯特_上海开业.mp4',
         duration: '00:30',
         date: '2025'
@@ -197,7 +197,7 @@ const portfolioData = [
         category: 'commercial',
         categoryLabel: '商业项目',
         description: '比斯特购物村苏州开业活动宣传片，用镜头记录品牌拓展的精彩瞬间。',
-        image: 'assets/images/比斯特_苏州开业.png',
+        image: 'assets/images/比斯特_苏州开业.jpg',
         videoUrl: 'https://cdn.jsdelivr.net/gh/wei01-star/my-portfolio@main/assets/videos/比斯特_苏州开业.mp4',
         duration: '00:30',
         date: '2025'
@@ -208,7 +208,7 @@ const portfolioData = [
         category: 'commercial',
         categoryLabel: '商业项目',
         description: '海鸥表品牌机芯产品展示，通过精细化的视觉呈现展现中国制表工艺的精湛与匠心。',
-        image: 'assets/images/海鸥表_机芯.png',
+        image: 'assets/images/海鸥表_机芯.jpg',
         videoUrl: 'https://cdn.jsdelivr.net/gh/wei01-star/my-portfolio@main/assets/videos/海鸥表_机芯.mp4',
         duration: '00:45',
         date: '2025'

@@ -1,0 +1,5 @@
+node_modules/
+.idea/
+.workbuddy/
+*.js
+!js/main.js
