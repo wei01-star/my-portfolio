@@ -692,7 +692,7 @@ const VideoModal = (() => {
             DOM.videoLoading.classList.add('active');
         });
 
-        DOM.modalVideo.addEventListener('canplay', () => {
+        DOM.modalVideo.addEventListener('playing', () => {
             DOM.videoLoading.classList.remove('active');
         });
 
