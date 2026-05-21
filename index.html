@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wei Fumin - 个人视频作品集</title>
+    <meta name="description" content="魏富民 - 资深动画特效师，TVC后期制作，个人视频作品集">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ========== 导航栏 ========== -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">Wei<span class="logo-accent">Fumin</span></a>
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">首页</a></li>
+                    <li><a href="#portfolio" class="nav-link">作品集</a></li>
+                    <li><a href="#about" class="nav-link">关于</a></li>
+                    <li><a href="#contact" class="nav-link">联系</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========== 首页轮播 ========== -->
+    <section class="hero" id="home">
+        <div class="carousel" id="carousel">
+            <div class="carousel-track" id="carouselTrack">
+                <!-- 幻灯片由 JS 动态生成 -->
+            </div>
+            <button class="carousel-btn carousel-prev" id="prevBtn" aria-label="上一张">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="carousel-btn carousel-next" id="nextBtn" aria-label="下一张">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            <div class="carousel-dots" id="carouselDots"></div>
+        </div>
+    </section>
+
+    <!-- ========== 作品集 ========== -->
+    <section class="portfolio section" id="portfolio">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">作品集</h2>
+                <p class="section-subtitle">「跃出屏幕」生动传递TVC广告的沉浸感与视觉张力</p>
+            </div>
+
+            <!-- 筛选按钮 -->
+            <div class="filter-buttons fade-in">
+                <button class="filter-btn active" data-filter="all">全部</button>
+                <button class="filter-btn" data-filter="commercial">商业项目</button>
+                <button class="filter-btn" data-filter="self">自主项目</button>
+            </div>
+
+            <!-- 作品网格 -->
+            <div class="portfolio-grid" id="portfolioGrid">
+                <!-- 由 JS 动态生成 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== 关于 ========== -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">关于我</h2>
+                <p class="section-subtitle">用创意和热情捕捉每一个精彩瞬间</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-image fade-in">
+                    <div class="avatar-wrapper">
+                        <img src="assets/images/avatar.jpg" alt="魏富民" class="avatar">
+                        <div class="avatar-ring"></div>
+                    </div>
+                </div>
+
+                <div class="about-text fade-in">
+                    <h3>Hi, 我是魏富民</h3>
+                    <p class="about-description">
+                        五年深耕TVC后期制作，资深动画特效师，精通三维全流程/视频修瑕/MG动画。
+                        以技术赋能品牌视觉，为多个知名品牌打造爆款宣传片，让创意在每一帧绽放商业价值。
+                    </p>
+                    <p class="about-description">
+                        每一帧都是光影的诗篇，每一镜皆是情感的呼吸。无论是恢弘场景的史诗构建，
+                        还是毫厘材质的精细化雕琢，我以匠人之心解构视觉语言，
+                        用动态美学传递品牌内核，让商业价值在画面的韵律中自然生长。
+                    </p>
+
+                    <!-- 统计数据 -->
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="200">0</span>
+                            <span class="stat-label">项目完成</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="30">0</span>
+                            <span class="stat-label">合作品牌</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="5">0</span>
+                            <span class="stat-label">各项奖项</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="5">0</span>
+                            <span class="stat-label">年经验</span>
+                        </div>
+                    </div>
+
+                    <!-- 技能 -->
+                    <div class="skills">
+                        <div class="skill-tag"><i class="fas fa-cube"></i> Cinema 4D</div>
+                        <div class="skill-tag"><i class="fas fa-shapes"></i> Adobe Substance</div>
+                        <div class="skill-tag"><i class="fas fa-sun"></i> Octane</div>
+                        <div class="skill-tag"><i class="fas fa-vector-square"></i> Rizom UV</div>
+                        <div class="skill-tag"><i class="fas fa-film"></i> After Effects</div>
+                        <div class="skill-tag"><i class="fas fa-paint-brush"></i> Adobe Photoshop</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== 联系 ========== -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">联系我</h2>
+                <p class="section-subtitle">期待与您合作</p>
+            </div>
+
+            <div class="contact-info fade-in" style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap;">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>邮箱</h4>
+                        <p>1063160623@qq.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>电话</h4>
+                        <p>+86 182-1775-5371</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-location-dot"></i>
+                    <div>
+                        <h4>地址</h4>
+                        <p>中国 · 上海</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== 页脚 ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#home" class="footer-logo">Wei<span class="logo-accent">Fumin</span></a>
+                <p class="footer-text">用技术赋能视觉，让创意绽放价值</p>
+                <p class="footer-copy">&copy; <span id="footerYear"></span> Wei Fumin. All Rights Reserved.</p>
+            </div>
+        </div>
+        <button class="back-to-top" id="backToTop" aria-label="返回顶部">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </footer>
+
+    <!-- ========== 视频弹窗 ========== -->
+    <div class="video-modal" id="videoModal">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose" aria-label="关闭">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-video-wrapper">
+                <div class="video-loading" id="videoLoading">
+                    <div class="loading-spinner"></div>
+                    <span>视频加载中...</span>
+                </div>
+
+                <video class="modal-video" id="modalVideo" playsinline>
+                    <source src="" type="video/mp4">
+                    您的浏览器不支持视频播放
+                </video>
+
+                <div class="modal-video-placeholder" id="videoPlaceholder">
+                    <div class="placeholder-play-btn">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <p>点击播放视频</p>
+                </div>
+
+                <div class="video-controls" id="videoControls">
+                    <div class="controls-progress-bar">
+                        <div class="progress-buffer" id="progressBuffer"></div>
+                        <div class="progress-played" id="progressPlayed"></div>
+                        <div class="progress-thumb" id="progressThumb"></div>
+                        <input type="range" class="progress-input" id="progressInput" min="0" max="100" value="0" step="0.1">
+                    </div>
+                    <div class="controls-bottom">
+                        <div class="controls-left">
+                            <button class="ctrl-btn" id="playPauseBtn" aria-label="播放/暂停">
+                                <i class="fas fa-play" id="playPauseIcon"></i>
+                            </button>
+                            <span class="time-display">
+                                <span id="currentTime">0:00</span>
+                                <span class="time-sep">/</span>
+                                <span id="duration">0:00</span>
+                            </span>
+                        </div>
+                        <div class="controls-right">
+                            <div class="volume-control">
+                                <button class="ctrl-btn" id="volumeBtn" aria-label="音量">
+                                    <i class="fas fa-volume-high" id="volumeIcon"></i>
+                                </button>
+                                <input type="range" class="volume-slider" id="volumeSlider" min="0" max="1" step="0.05" value="1">
+                            </div>
+                            <button class="ctrl-btn" id="fullscreenBtn" aria-label="全屏">
+                                <i class="fas fa-expand" id="fullscreenIcon"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-info">
+                <h3 id="modalTitle">视频标题</h3>
+                <div class="modal-meta">
+                    <span class="modal-category" id="modalCategory">分类标签</span>
+                    <span class="modal-duration" id="modalDuration">00:00</span>
+                    <span class="modal-date" id="modalDate">2026</span>
+                </div>
+                <p id="modalDesc">视频描述</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
