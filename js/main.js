@@ -55,7 +55,7 @@ const portfolioData = [
         categoryLabel: '自主项目',
         description: '自主打造的抖音平台宣传视频，以沉浸式视觉体验呈现ArtDeco的独特魅力，契合特效制作「让画面活起来」的核心价值。',
         image: 'assets/images/ArtDeco_抖音.jpg',
-        videoUrl: 'https://raw.githubusercontent.com/wei01-star/my-portfolio/main/assets/videos/ArtDeco_抖音.mp4',
+        videoUrl: 'https://raw.githubusercontent.com/wei01-star/my-portfolio/main/assets/videos/artdeco.mp4',
         duration: '00:30',
         date: '2026'
     },
@@ -77,7 +77,7 @@ const portfolioData = [
         categoryLabel: '商业项目',
         description: 'Debeers品牌晚宴活动投影宣传视频，记录奢华之夜的精彩瞬间，展现钻石品牌的永恒魅力。',
         image: 'assets/images/Debeers_晚宴.jpg',
-        videoUrl: 'https://raw.githubusercontent.com/wei01-star/my-portfolio/main/assets/videos/Debeers_晚宴.mp4',
+        videoUrl: 'https://raw.githubusercontent.com/wei01-star/my-portfolio/main/assets/videos/debeers.mp4',
         duration: '01:00',
         date: '2026'
     },

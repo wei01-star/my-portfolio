@@ -1,3 +1,1 @@
-assets/videos/光影节.mp4 filter=lfs diff=lfs merge=lfs -text
-assets/videos/Debeers_晚宴.mp4 filter=lfs diff=lfs merge=lfs -text
-assets/videos/ArtDeco_抖音.mp4 filter=lfs diff=lfs merge=lfs -text
+# 所有文件都小于 100MB，无需 Git LFS
